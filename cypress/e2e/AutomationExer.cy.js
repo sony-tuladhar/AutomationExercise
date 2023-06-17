@@ -16,7 +16,7 @@ describe("Register the Account",()=>{
     })
 })
 
-describe("Login with valid credential",()=>{
+describe("Login with valid and invalid credential",()=>{
     it ("Login the System ", () => {
          RegisterPage.VisitUrl()
          LoginPage.LoginToSysyem()
